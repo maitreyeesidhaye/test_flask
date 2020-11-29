@@ -12,7 +12,7 @@ CREATE_USERS_TABLE = """ CREATE TABLE IF NOT EXISTS users_test (
 
 conn = sqlite3.connect(URI)
 c = conn.cursor()
-c.execute(Database.CREATE_USERS_TABLE)
+c.execute(CREATE_USERS_TABLE)
 conn.close()
 
 
